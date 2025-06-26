@@ -1,0 +1,36 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.container {
+    border: 1px solid black;
+    background-color: brown;
+    width: 70%;
+    margin: auto;
+    border-radius: 3%;
+}
+
+.img {
+    margin-top: 3rem;
+    margin-left: 12rem;
+    margin-bottom: 8rem;
+}
+
+.tombol button{
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 50px;
+    width: 150px;
+}
+
+.tombol{
+    margin: 0 0 20px 25rem;
+}
+
+.content {
+    border: 5px dotted white;
+    margin: 0 10px 15px 10px;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 19px;
+}
