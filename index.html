@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web mas dani</title>
     <link rel="icon" type="image/x-icon" href="kamartidur/search.png">
+    <style>
+
+        /* cara memanggil class menggunakan titik */
+        .heading { 
+            color: red;
+        }
+        /* cara memanggil id menggunakan pagar (#) */
+        #h2 {
+            color: blue;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -213,6 +225,56 @@
      </div>
 
 
+     <table border="1">
+        <thead>
+            <td>nama</td>
+        <td rowspan="2"></td>
+        </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+            <td>agung</td>
+            <td>90</td>
+        </tr>
+        </tbody>
+     </table>
+
+     <h1 class="heading">MASURA DANI QUTHNI</h1> <!-- ini menggunakan class -->
+     <h2 id="h2">HELLO WORLD</h2> <!-- ini menggunakan id -->
+
+
+     <form>
+        <label for="nama">silahkan isi nama kalian: </label>
+        <input type="text" name="nama">
+        <br>
+        <label for="pass">silahkan buat password: </label>
+        <input type="password" name="pass">
+        <br>
+        <label for="html">html</label>
+        <input type="radio" id="html" name="pembelajaran">
+        <br>
+        <label for="css">css</label>
+        <input type="radio" id="css" name="pembelajaran">
+        <br>
+        <label for="sudah">sudah makan</label>
+        <input type="checkbox" name="sudah">
+        <br>
+        <label for="belum">belum makan</label>
+        <input type="checkbox" name="belum">
+
+        <input type="submit" value="tombol">
+     </form>
+
+     <!-- html media -->
+      <video width="320" height="240" autoplay>
+        <source src="video/mov_bbb.mp4" type="video/mp4">
+      </video>
+
+      <audio controls>
+        <source src="audio/SoundHelix-Song-1.mp3" type="audio/mp3">
+      </audio>
 </body>
 
 

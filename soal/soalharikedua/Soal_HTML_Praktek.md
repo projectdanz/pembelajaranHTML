@@ -50,7 +50,6 @@
 - Link ke bagian dalam halaman menggunakan id  
 - Sisipkan gambar dari link bebas (contoh: https://via.placeholder.com/200)  
 - Atur lebar gambar menjadi 200px  
-
 ---
 
 # **Total Skor Maksimal: 100 poin**
