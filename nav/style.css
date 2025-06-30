@@ -1,0 +1,38 @@
+.logo {
+    background-color: aqua;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.table .list {
+    display: inline-block;
+    /* position: absolute; */
+    margin-left: 5px;
+}
+
+.table {
+    position: absolute;
+    right: 15px;
+    top: 2px;
+}
+
+.navbar {
+    display: inline-block;
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 50px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.img {
+    background-color: pink;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+}
+
+.text {
+    margin-top: 40px;
+}

@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 248, 248);
+}
+
+
+/* navbar */
+.navbar {
+    position: fixed;
+    width: 100%;
+    margin-bottom: 100px;
+    border-bottom: 2px solid black;
+    background-color: white;
+    border-radius: 25px;
+    padding: 2px;
+    z-index: 99999;
+}
+
+.navbar h1 {
+    margin: 15px;
+    font-family: 'newFont';
+    font-weight: 300;
+}
+
+.navbar ul {
+    position: absolute;
+    right: 45px;
+    top: 14px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+
+/* animasi navbar */
+.navbar li a:hover {
+    color: aqua;
+    border-bottom: 2px solid aqua;
+    transition: 1ms;
+}
+
+
+/* content */
+.container {
+    top: 150px;
+    margin-left: 5%;    
+    position: relative;
+}
+
+.content {
+    background-color: white;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.box1 {
+    width: 800px;
+    height: auto;
+    /* overflow: auto; */
+    padding: 10px;
+}
+
+.box1 img {
+    width: 180px;
+    float: left;
+    margin: 15px;
+}
+
+.box1 p {
+    text-indent: 30px;
+    letter-spacing: 1.5px;
+    line-height: 1.5rem;
+}
+
+.box2 {
+    width: 350px;
+    height: auto;
+    margin-left: 8px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
+
+@font-face {
+    font-family: 'newFont';
+    src: url(font/ManufacturingConsent-Regular.ttf) format(truetype)
+}
