@@ -1,5 +1,6 @@
 body {
     background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -16,10 +17,13 @@ body {
 .profile {
     border: 5px solid white;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 180px;
+    width: 180px;
     margin: auto;
     overflow: hidden;
+    box-shadow: 0px 7px 20px rgb(64,112,244);
+    position: relative;
+    z-index: 9999;
 }
 
 .profile .gambar-profile {
@@ -29,7 +33,46 @@ body {
 }
 
 .container-content {
-    margin-top: -20px;
+    margin-top: -60px;
+    padding-top: 75px;
     height: 100%;
     background-color: white;
 }
+
+.porto {
+    text-align: center;
+}
+
+.box {
+    display: block;
+}
+
+.nama {
+    font-weight:600;
+    font-size: 2rem;
+}
+
+.job {
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+.media-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.link {
+    font-size: 1.9rem;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.link i {
+    font-size: 1.3rem;
+    color: white;
+    width: 2.1rem;
+    text-align: center;
+}
+

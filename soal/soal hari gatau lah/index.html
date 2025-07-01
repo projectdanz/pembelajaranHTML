@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body {
+            background-image: linear-gradient(135deg ,red, blue);
+        } */
+
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: cyan;
+            box-shadow: -4px -10px 10px rgba(0, 0, 0, 0.309);  
+        }
+
+        .box:hover {
+            transition: 2s;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            color: blue;
+            text-shadow: 4px 4px 4px purple;
+            /* rotate: 50deg; */
+        }
+
+        .box2 {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            transition: 1s;
+            transition-delay: 1s;
+
+        }
+        .box2:hover{
+            width: 200px;
+            height: 200px;
+        }
+
+        .box3 {
+            width: 150px;
+            height: 150px;
+            background-color: green;
+        }
+
+        .box3:active{
+            animation-name: contoh;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes contoh {
+            0% {
+                background-color: green;
+            }
+            25% {
+                background-color: aquamarine;
+                rotate: 45deg;
+            }
+            50% {
+                background-color: blueviolet;
+                rotate: 90deg;
+            }
+            75% {
+                background-color: aquamarine;
+                rotate: 45deg;
+            }
+            100% {
+                background-color: green;
+            }
+        }
+
+        .iframe {
+            border: 2px solid yellow;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HELLO WORLD</h1>
+    <div class="box"></div>
+    <!-- <div class="box2"></div> -->
+    <!-- <div class="box3"></div> -->
+     <!-- <iframe src="" frameborder="1" name="example" width="500px" height="350px" class="iframe"></iframe>
+     
+     <marquee behavior="" direction="" scrollamount="25" loop="2" height="200px">hello</marquee>
+     
+     
+     <a href="../../video/mov_bbb.mp4" target="example">coba</a> -->
+</body>
+</html>
