@@ -5,13 +5,14 @@ body {
 
 .container {
     margin: auto;
-    margin-top: 7rem;
+    margin-top: 4rem;
     background-color: rgb(64,112,244);
     width: 26rem;
-    height: 27rem;
+    height: 29rem;
     border-radius: 45px;
     padding-top: 40px;
     overflow: hidden;
+    box-shadow: 5px 8px 8px rgba(0,0,0, .25);
 }
 
 .profile {
@@ -76,3 +77,46 @@ body {
     text-align: center;
 }
 
+.tombol {
+    text-align: center;
+    padding-top: 18px;
+}
+
+.border {
+    background-color: rgb(64,112,244);
+    border-radius: 25px;
+    border: 2px solid rgb(64,112,244);
+    width: 7rem;
+    height: 2rem;
+    margin-left: 15px;
+    transition: .5s;
+}
+
+.border .text {
+    color: white;
+    font-size: 14px;
+}
+
+.border:hover{
+    background-color: rgb(96, 136, 247);
+    border: 2px solid rgb(96, 136, 247);
+    box-shadow: 3px 3px 5px rgba(0,0,0, .25);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.data {
+    padding: 2px;
+    letter-spacing: 5px;
+    font-size: .8rem;
+}
+
+.garis {
+    border-left: 1px solid rgba(0, 0, 0, 0.452);
+    height: 3rem;
+    margin: 25px;
+}

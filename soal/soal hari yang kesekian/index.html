@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: orange;
+            position: absolute;
+            left: 50%;
+            animation-name: move;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+
+        /*.box1:hover{
+            width: 200px;
+            height: 200px;
+        } */
+
+        /* .move{
+            font-size: 25px;
+            color: blue;
+            position: absolute;
+            right: -170px;
+            animation-name: move;
+            animation-duration: 10s;
+            transition: 5s;
+            animation-iteration-count: infinite;
+        }*/
+
+        @keyframes move {
+            0%{top: 0px;}
+            50%{top: 400px;}
+            100%{top: 0px;}
+        } 
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+     <!-- <span class="move">Selamat Datang</span>
+     <iframe src="https://www.google.com" frameborder="1" width="500px" height="300px"></iframe>
+     <marquee behavior="" direction="">Website ini masih dalam tahap pengembangan</marquee> -->
+</body>
+</html>
