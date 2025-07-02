@@ -43,20 +43,42 @@ table {
 	border-spacing: 0;
 }
 
+/* styling body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 /* styling navbar */
+.logo{
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-top: 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.678);
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     background-color: rgb(0, 129, 214);
     color: white;
     padding: 30px 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
 }
 
 .right {
     display: flex;
     justify-content: space-around;
     width: 50rem;
+    margin-right: 50px;
     /* border: 2px solid black; */
+}
+
+.navbar .right .link {
+    margin-top: 10px;
 }
 
 .navbar .right .link li{
@@ -84,6 +106,7 @@ table {
 
 .navbar .right .link li a:hover{
     color: rgb(0, 235, 252);
+    text-shadow: 0px 0px 5px rgb(67, 242, 255);
 }
 
 a:hover .border-bottom {
@@ -92,3 +115,39 @@ a:hover .border-bottom {
     background-color: rgb(0, 235, 252);
 }
 
+.navbar .right .button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+
+.navbar .right .button button{
+    background-color: rgb(0, 235, 252);
+    border: 2px solid rgb(0, 235, 252);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 25px;
+    position: relative;
+}
+
+.navbar .right .button button:hover {
+    top: -4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.678);
+}
+
+
+/* styling section */
+.background {
+    height: 100vh;
+    background:linear-gradient(rgba(14, 62, 134, 0.897), rgba(0, 0, 0, 0.521)), url(https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80) no-repeat center center/cover;
+}
+
+.background .isi-background {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 250px;
+    width: 55rem;
+}
